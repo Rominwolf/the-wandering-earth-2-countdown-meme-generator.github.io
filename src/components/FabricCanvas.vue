@@ -266,6 +266,8 @@ export default {
       let left = group["left"];
       let zoomX = group["zoomX"];
       let zoomY = group["zoomY"];
+      let scaleX = group["scaleX"];
+      let scaleY = group["scaleY"];
 
       fabricCanvas.remove(fabricCanvas.getObjects()[0]);
 
@@ -274,8 +276,8 @@ export default {
         left: left,
         zoomX: zoomX,
         zoomY: zoomY,
-        scaleX: zoomX,
-        scaleY: zoomY,
+        scaleX: scaleX,
+        scaleY: scaleY,
       });
       fabricCanvas.getObjects()[0].setCoords();
     },
