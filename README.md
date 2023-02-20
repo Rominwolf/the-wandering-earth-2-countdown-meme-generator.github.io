@@ -1,6 +1,6 @@
 # The Wandering Earth 2 Countdown (the-wandering-earth-2-countdown)
 
-项目链接：http://testing.wsm.ink/the-wandering-earth-2-countdown
+项目链接：https://lab.wsm.ink/the-wandering-earth-2-countdown/
 
 ## Install the dependencies
 ```bash
